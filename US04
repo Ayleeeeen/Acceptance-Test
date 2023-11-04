@@ -1,0 +1,10 @@
+Feature: US04: Buscar producto farmacéutico
+    Descripción: Como usuario de la plataforma FarmaGo, quiero poder buscar medicamentos por 
+    su nombre para encontrar información sobre su disponibilidad y precios para seleccionar 
+    la mejor opción
+
+    Escenario 1:  
+    Dado que el usuario se encuentra en la página de inicio  
+    Cuando el usuario haga click en “Buscar”
+    Entonces se abrirá el menú buscar 
+
